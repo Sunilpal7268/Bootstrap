@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta charset="utf-8">
+  <title>bootstrap</title>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+    <style>
+      .a{
+        color: black;
+        padding-top: 25px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+      .b{
+        color: #393737;
+        line-height: 35px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        text-align: justify;
+      }
+      .img{
+        width: 100%;
+      }
+      .e{
+          margin-top: 30px;
+            margin-bottom:30px;
+      }
+
+      @media(max-width: 600 px){ 
+      .img{
+        width: 100%;
+        margin-top: 20px;
+      }
+    }   
+      .navbar{
+        background-color: #0000009c!important;
+      }
+      .navbar-nav li{
+        padding: 0 10px;
+      }
+      .navbar-nav li a{
+        color:#fff;
+        font-weight: 600px;
+        font-size: 15px;
+      }
+      .moblogo{
+        display: none;
+      }
+      @media( max-width: 600px)
+      {
+        .moblogo{
+        display: block;
+       }
+       .weblogo{
+        display: none;
+       }
+      }
+    </style>
+
+</head>
+<body>
+<!--navbar start-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a href="">
+      <img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" style="width:59px;" class="weblogo">
+      <!--mobile logo-->
+      <img src="https://www.firstfiddle.in/assets/images/logo-for-mobile.png" class="moblogo">
+      <!--mobile logo end-->
+
+    </a>
+
+    <!--button start-->
+    <button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#n">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--button end-->
+
+    <!--menu start-->
+    <div class="collapse navbar-collapse"id="n">
+      <ul class="navbar-nav ms-auto">
+      <li><a href=""class="nav-link">HOME</a></li>
+      <li><a href=""class="nav-link">ABOUT</a></li>
+      <li><a href=""class="nav-link">BRANDS</a></li>
+      <li><a href=""class="nav-link">OUR TEAM</a></li>
+      <li><a href=""class="nav-link">PRESSE RELEASE</a></li>
+      <li><a href=""class="nav-link">CONTACT</a></li>
+      <li><a href=""class="nav-link">CAREERS</a></li>
+      <li><a href=""class="nav-link">FRANCHISE</a></li>
+      <li>
+        <a href="" class="nav-link btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#aa" >Login</a>
+      </li>
+      </ul>
+    </div>
+    <!--menu end-->
+  </div><!--container flued end-->
+</nav>
+<!--navbar end-->
+
+
+<img src="https://app.firstfiddle.in/images/brand-banner/lotd.jpeg" class="w-100">
+
+</body>
+</html>
